@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+
+/* Variables Tema Oscuro (Por Defecto) */
+:root {
+  --bg-main: #0a0a0a;
+  --bg-card: #171717;
+  --text-main: #f5f5f5;
+  --text-muted: #a3a3a3;
+  --accent: #00ffcc; 
+  --border-color: #262626;
+  --btn-hover-text: #0a0a0a;
+}
+
+/* Variables Tema Claro */
+[data-theme="light"] {
+  --bg-main: #f9fafb;
+  --bg-card: #ffffff;
+  --text-main: #111827;
+  --text-muted: #4b5563;
+  --accent: #2563eb; /* Azul brillante para mejor contraste en modo claro */
+  --border-color: #e5e7eb;
+  --btn-hover-text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
