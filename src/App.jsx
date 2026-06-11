@@ -110,6 +110,8 @@ function App() {
             <span className="skill-tag">Bootstrap</span>
             <span className="skill-tag">Tailwind</span>
             <span className="skill-tag">Android Studio</span>
+            <span className="skill-tag">Jmeter</span>
+            <span className="skill-tag">Postman</span>
             <span className="skill-tag">Soporte Técnico (Cisco IT)</span>
             <span className="skill-tag">Google Cloud</span>
             <span className="skill-tag">Metodologías Ágiles (SCRUM)</span>
