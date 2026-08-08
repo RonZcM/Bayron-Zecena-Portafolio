@@ -295,5 +295,28 @@ export const projects = [
       "/projects/cueva-del-texto/7.png",
       "/projects/cueva-del-texto/8.png"
     ]
+  },
+  {
+    "id": 9,
+    "title": "Sistema de Control Agrícola - CAPOSA",
+    "context": "Desarrollo de una plataforma integral para digitalizar la gestión de inventarios y producción del vivero de CAPOSA.",
+    "focus": "Arquitectura MVC, API REST en Java (Spring Boot) y panel interactivo con React.",
+    "description": "Plataforma integral bajo arquitectura MVC que digitalizó por completo la gestión de inventarios y producción del vivero. El sistema erradicó la dependencia de hojas de cálculo, logrando automatizar el cálculo de consumo de insumos (sustrato) y reducir la carga operativa. Incluye una API REST de alto rendimiento en Java (Spring Boot), una base de datos relacional centralizada (SQLite) para asegurar la trazabilidad del ciclo de vida de cada planta, y un panel interactivo responsivo en React para la supervisión gerencial y auditorías de campo en tiempo real.",
+    "links": [],
+    "categories": [
+      "React",
+      "SpringBoot",
+      "Java",
+      "Full-Stack"
+    ],
+    "images": [
+      "/projects/caposa/1.png",
+      "/projects/caposa/2.png",
+      "/projects/caposa/3.png",
+      "/projects/caposa/4.png",
+      "/projects/caposa/5.png",
+      "/projects/caposa/6.png",
+      "/projects/caposa/7.png"
+    ]
   }
 ];
